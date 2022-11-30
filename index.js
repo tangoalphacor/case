@@ -1,3 +1,4 @@
+
 fetch("https://jsonplaceholder.typicode.com/todos").then((data)=>{
 // console.log(data); json format
 return data.json(); //converted to object
@@ -8,15 +9,10 @@ return data.json(); //converted to object
         tabledata +=`<tr>
         <td>${values.id}</td>
         <td>${values.title}</td>
-        <td><input class="form-check-input" type="checkbox" value=""id="flexCheckDefault" ></input>${values.completed}</td>
+        <td><input class="form-check-input" type="checkbox" value=""id="flexCheckDefault" ></input></td>
         </tr> `
     })
     document.getElementById("tb").innerHTML=tabledata
-    let check=document.getElementById("flexCheckDefault").checked
-    if(check&&values.completed=="true"){
-        alert("Task complete")
-    }
 })
-
     
  

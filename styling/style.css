@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navigan{
+    max-width: 100%;
+    align-content:center;
+    border: 1px solid red;
+    background: fixed;
+    min-width: .5rem;
+    min-height: .5rem;
+}
+.navbar-brand{
+    margin-left: 45%;
+    padding: 2%;
+    background-image: url("https://www.simpleimageresizer.com/_uploads/photos/58438a90/todo_1_100x100.gif");
+    min-width:150px;
+    min-height:80px;
+    background-repeat: no-repeat;
+}
+body{
+    background-color: black;
+}
+.container{
+    color: aliceblue;
+    background-color: antiquewhite;
+    max-width: 800px;
+    max-height:fit-content;
+    margin-top: 100px;
+}
+.nav-item:hover{
+    background-color: rgb(255, 127, 133);
+    border: 1px solid red;
+}
